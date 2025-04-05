@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+label {
+	margin-right: .3em;
+	width: 140px; /* I made this deliberately wide – come up with your own
+	optimal width */
+	display: inline-block; /* width will not work for “inline” elements such as
+	“label”. Therefore we need to set it to “inline-block” */
+	}
+
+	#formcol1 li {
+		list-style:none;
+		}
+
+
+		#multchoice p span {
+			display: inline-block;
+			margin-right: 20px;
+		  }
+		  
+		  #multchoice p {
+			margin: 0;
+			padding: 0.2em 0;
+		  }
+		  select:focus,
+		  select:active,
+		  input:focus,
+		  input:active,
+		  input:focus + label,
+		  input:active + label,
+		  label[for]:focus,
+		  label[for]:active {
+			color: #FFF !important;
+			background-color: #BB3D2F !important;
+		  }
+
+
+
+		  #formcol1 input.reqfield {
+			background: #FF9; /* Light yellow */
+		  }
+
+
+
+		  body {
+			font-family: Arial, sans-serif;
+			line-height: 1.6;
+			padding: 20px;
+			background-color: #f9f9f9;
+		  }
+		  
+		  form {
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 8px;
+		  }
+		  
+		  fieldset {
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+			padding: 1em;
+			border-radius: 5px;
+		  }
+		  
+		  legend {
+			font-weight: bold;
+			font-size: 1.1em;
+		  }
+		  
+		  ul {
+			list-style-type: none;
+			padding: 0;
+		  }
+		  
+		  li {
+			margin-bottom: 10px;
+		  }
+/* end of form css */
+	
